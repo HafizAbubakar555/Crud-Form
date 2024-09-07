@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #606c38;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px ;
+}
+
+input{
+    width:500px;
+    height: 60px;
+    margin:15px 0 ;
+    border: none;
+    border-radius:30px ;
+    font-size: 20px;
+    padding-left:20px ;
+    background-color:#283618 ;
+    color: white;
+}
+
+#submit{
+    width:200px ;
+    height:50px ;
+    background-color: #fefae0;
+    font-size:20px ;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin:15px 0 ;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+ th , td {
+    width:200px ;
+    height: 50px;
+    border-collapse: collapse;
+    font-size: 20px;
+    color: white;
+}
+
+th{
+    background-color: #bc6c25;
+}
+
+td{
+    background-color: #dda15e;
+    text-align: center;
+}
+.email{
+    width: 400px;
+}
+
+#edit , #delete{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    border-radius:30px ;
+    cursor: pointer;
+    color: white;
+}
+
+#edit{
+    background-color: rgb(7, 87, 14);
+}
+#delete{
+    background-color: rgb(122, 27, 27);
+}   
